@@ -1,0 +1,134 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #E73535;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: #fff;
+  }
+  span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+  }
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 127px;
+    letter-spacing: -1.58px;
+    margin-bottom: 35px;
+    color: #fff;
+  }
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 35px;
+    color: #fff;
+  }
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    color: #fff;
+    margin-right: 47px;
+  }
+  .container {
+    margin: 0 auto;
+    width: 1200px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 0;
+  }
+  .nav {
+    display: flex;
+    gap: 57px;
+    list-style: none;
+  }
+  .nav a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .accountNavigation {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+  .main {
+    display: flex;
+  }
+  .content {
+    padding-top: 135px;
+    z-index: 1;
+  }
+  .bttn {
+    display: flex;
+    background-color: #E73535;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    margin-bottom: 34px;
+    align-items: center;
+  }
+  .plus {
+    border-radius: 50%;
+    width: 98px;
+    height: 98px;
+    background-color: #FFC107;
+    margin-right: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .order {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  .order a {
+    text-decoration: none;
+  }
+  .img {
+    position: absolute;
+    width: 1125px;
+    height: 891px;
+    right: 54px;
+    top: 137px;
+  }
+
